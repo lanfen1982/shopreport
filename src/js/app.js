@@ -11,8 +11,11 @@ reportApp.config(['$routeProvider',
 		when('/shopdetail', {
 			templateUrl: 'tpls/shop-detail.html',
 			controller: 'shopDetailCtrl'
-		}).otherwise({
+		}).
+		when('/shopcommodity', {
+			templateUrl: 'tpls/shop-commodity.html',
+			controller: 'shopCommodityCtrl'
+		}).otherwise( {
 			redirectTo: '/shopdetail'
 		});
-
 	}]);

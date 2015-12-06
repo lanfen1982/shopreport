@@ -2,10 +2,14 @@
 	"shopname": "my test shop",
 	"diagnoseType": "affaf",
 	"totalSales": "2000~2500件",
+  	"descriptions": "您的店铺近期总体表现很好，但是还不属于第一梯队，需要投入更多的精力去优化您的运营情况",
 	"paiming": {
 		"xiaoliang": "500",
 		"maijia": "1400",
-		"huanbi": "3000"
+		"huanbi": "3000",
+	  	"pingjunxiaoliang": "200",
+	  	"maijiashu": "300,000",
+	  	"baifenbi": "30",
+	  	"hangyejunzhi": "78,000"
 	}
-
 }

@@ -42,23 +42,52 @@
   border: 3px solid #f5f5f5;
   border-radius: 10px;
   margin: 60px auto;
-  .app-header,
+
+  //标题部分开始:start
+  .app-header {
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    div {
+      &:first-child {
+        text-align: center;
+        width: 60%;
+        margin: 30px auto;
+        overflow: hidden;
+        >img {
+          display: block;
+          width: 35%;
+
+          //margin-right: 5%;
+          float: left;
+        }
+        >p {
+          float: right;
+          width: 65%;
+          //height: 50px;
+          //line-height: 60px;
+          //background: url("../img/logo.png") no-repeat;
+          //background-size: 20%;
+          //margin: 50px auto 20px;
+          color: #0099c8;
+          font-size: xx-large;
+          text-align: right;
+        }
+      }
+    }
+  }
+  //标题部分结束:end
+
+  //主题部分:start
   .seller_messages {
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
     border-bottom: 3px solid #928f8a;
-    p {
-      width: 50%;
-      height: 50px;
-      line-height: 50px;
-      background: url("../img/logo.png") no-repeat;
-      margin: 50px auto 20px;
-      color: #0099c8;
-      font-size: xx-large;
-      text-align: right;
-    }
+    border-top: 3px solid #928f8a;
+
+    //主题:shop-detail.html/start
     ul {
       float: left;
       width: 30%;
@@ -70,14 +99,36 @@
     >.sell_name{
       margin-left: 20%;
     }
+    //主题:shop-detail.html/end
+
+    //主题:shop-commodity.html/start
+    img {
+      float: left;
+      margin: 2% 10% 2% 10%;
+    }
+    div {
+      a {
+        //font-size: large;
+        color: #0099c8;
+        }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+    //主题:shop-commodity.html/end
   }
+  //主题部分:end
 }
 
+
+//内容部分标题
 .headline {
   font-size: x-large;
   line-height: 60px;
   text-align: center;
 }
+
+//内容部分数据详情
 .main {
   width: 90%;
   margin: 0 auto;
