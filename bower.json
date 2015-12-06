@@ -1,0 +1,37 @@
+{
+  "name": "tests",
+  "authors": [
+    "lanfen1982 <lanfen@wezonet.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "angularjs#~1.4.8",
+    "highcharts": "~4.1.9",
+    "highcharts-ng": "~0.0.11",
+    "bootstrap": "~3.3.6",
+    "angular-bootstrap": "~0.14.3",
+    "AngularJS-Toaster": "angularjs-toaster#~0.4.16"
+  },
+  "dependencies": {
+    "AngularJS-Toaster": "angularjs-toaster#~0.4.16",
+    "angular-route": "~1.4.8"
+  }
+}

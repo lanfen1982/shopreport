@@ -1,0 +1,76 @@
+<div class="app-header">
+        <!--<img src="img/logo.png"/>-->
+        <p>亚马逊卖家诊断报告</p>
+    </div>
+
+    <div class="seller_messages">
+        <ul class="sell_name">
+            <li>店铺名称</li>
+            <li>诊断类别</li>
+            <li>上月总共销量</li>
+        </ul>
+        <ul>
+            <li>{{ shopdata.shopname }}</li>
+            <li>{{ shopdata.diagnoseType }}</li>
+            <li>{{ shopdata.totalSales }}</li>
+        </ul>
+    </div>
+
+    <p class="headline">店铺在{{ shopdata.diagnoseType }}的数据分析</p>
+
+    <div class="main">
+        <ul>
+            <li>综合得分</li>
+            <li class="canvas">
+                <div>饼图</div>
+            </li>
+            <li class="comment">
+                <ul>
+                    <li>您的店铺近期总体表现很好，但是还不属于第一梯队，需要投入更多的精力去优化您的运营情况</li>
+                    <li><a href="#">点击优化店铺运营</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>近1年销量趋势</li>
+            <li>
+                <div>线性图标</div>
+            </li>
+        </ul>
+        <div class="data_content">
+            <ul class="content_side">
+                <li>约<a>{{ shopdata.paiming.xiaoliang }}</a></li>
+                <li>你的销量排名位置</li>
+                <li>上月行业平均销量为约<a>100</a>件</li>
+            </ul>
+            <ul class="content_middle">
+                <li>约<a>{{ shopdata.paiming.maijia }}</a></li>
+                <li>你的卖家排名位置</li>
+                <li>上月本品类有销量卖家大概有<a>30,000</a>人</li>
+            </ul>
+            <ul class="content_side">
+                <li>约<a>{{ shopdata.paiming.huanbi }}</a></li>
+                <li>你的销量环比增长排名位置</li>
+                <li>上月行业销量环比为增长<a>10</a>%</li>
+            </ul>
+        </div>
+        <div class="data_content">
+            <ul class="side">
+                <li class="side_left">
+                    <a href="#">
+                        Fire,7"Display,Wi-Fi,8 GB-Includes Special Offers,Black
+                    </a>
+                </li>
+                <li>销量最大的单品</li>
+            </ul>
+            <ul class="content_middle">
+                <li>约<a>75,000</a></li>
+                <li>行业Top3的销量均值<br/>你的排名还算靠前，但跟Top3的差距还是很大</li>
+                <li><a>点击提高你的销量</a></li>
+            </ul>
+            <ul class="side">
+                <li class="side_right"><a href="#">Cable Matters</a></li>
+                <li>销售金额最高的卖家店铺</li>
+            </ul>
+        </div>
+    </div>

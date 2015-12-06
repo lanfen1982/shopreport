@@ -1,0 +1,11 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "shop detail",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a 0.0.0.0 -p 8000 src"
+  },
+  "author": "",
+  "license": "ISC"
+}
